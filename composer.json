@@ -1,0 +1,23 @@
+{
+    "name": "kittenphp/database",
+    "description": "PHP PDO Wrapper Class",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["pdo","database"],
+    "authors": [
+        {
+            "name": "kittenphp",
+            "email": "kittenphp@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "psr/log": "^1.0",
+        "kittenphp/utils": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kitten\\component\\database\\": "src/"
+        }
+    }
+}
